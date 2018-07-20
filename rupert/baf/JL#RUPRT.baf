@@ -1,0 +1,41 @@
+IF
+AreaCheck("AR2302") // bgee
+Global("JL#RupertBG1Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("JL#RupertBG1Spawn","GLOBAL",1)
+CreateCreature("JL#RUPRT",[500.530],14)
+Continue()
+END
+
+IF
+AreaCheck("BG2302") // eet
+Global("JL#RupertBG1Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("JL#RupertBG1Spawn","GLOBAL",1)
+CreateCreature("JL#RUPRT",[500.530],14)
+Continue()
+END
+
+IF
+AreaCheck("FW2302") // bgtutu
+Global("JL#RupertBG1Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("JL#RupertBG1Spawn","GLOBAL",1)
+CreateCreature("JL#RUPRT",[500.530],14)
+Continue()
+END
+
+IF
+AreaCheck("AR6800") // bgt
+Global("JL#RupertBG1Spawn","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("JL#RupertBG1Spawn","GLOBAL",1)
+CreateCreature("JL#RUPRT",[500.530],14)
+ActionOverride("JL#RUPRT",MoveBetweenAreas("AR6802",[500.530],6))
+Continue()
+END
+
