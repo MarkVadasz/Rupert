@@ -17,6 +17,10 @@ LANGUAGE ~Italian (by ilot)~
          ~italian~
          ~rupert/tra/italian/setup.tra~
 
+LANGUAGE ~German (by Meresin, some parts of 2.2 are machine translated)~
+         ~german~
+         ~rupert/tra/german/setup.tra~
+
 
 BEGIN @0 
 
