@@ -3,6 +3,10 @@ AUTHOR ~jonalun@gmail.com~
 VERSION ~v2.2Alpha~
 README ~rupert/readme.html~
 
+ALWAYS
+  ACTION_IF ((FILE_EXISTS ~dlc/sod-dlc.zip~) OR (FILE_EXISTS ~sod-dlc.zip~)) THEN BEGIN FAIL @27 END // Modmerge check
+END
+
 AUTO_TRA ~rupert/tra/%s~
 
 LANGUAGE ~English~
